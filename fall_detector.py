@@ -86,6 +86,7 @@ class FallDetector:
         return args
 
     def begin(self):
+        print('VitaSentinel — Patient Fall & Posture Monitoring')
         print('Starting...')
         e = mp.Event()
         queues = [mp.Queue() for _ in range(self.args.num_cams)]

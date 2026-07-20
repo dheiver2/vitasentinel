@@ -3,4 +3,9 @@ keypoints.csv
 Fall_Detection_Documents/
 .vscode/
 *.mp4
+venv/
+input/
+run.log
+frames_preview/
+*.avi
 
